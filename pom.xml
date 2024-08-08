@@ -10,7 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>design_pattern</module>
-
+        <module>java_utils</module>
+        <module>elasticsearch</module>
         <!--        <module>maven</module>-->
     </modules>
 
