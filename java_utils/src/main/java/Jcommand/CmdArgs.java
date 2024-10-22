@@ -6,6 +6,13 @@ import lombok.Data;
 
 import java.util.Arrays;
 
+/**
+ *  <dependency>
+ *     <groupId>com.beust</groupId>
+ *     <artifactId>jcommander</artifactId>
+ *     <version>${jcommand.version}</version>
+ * </dependency>
+ */
 @Data
 public class CmdArgs {
     @Parameter(names = {"-m", "--mode"}, description = "link mode", help = true, order = 1)
