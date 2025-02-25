@@ -15,6 +15,7 @@
         <module>hutool</module>
         <module>log</module>
         <module>graph</module>
+        <module>git</module>
         <!--        <module>maven</module>-->
     </modules>
 
