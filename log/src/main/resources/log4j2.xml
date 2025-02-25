@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+    <Appenders>
+        <!-- 配置两种输出格式 针对不同的包下的输出-->
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%c{1}] %-5level : %msg%n" />
+        </Console>
+        <Console name="tencent" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%c{1}] %-5level >>>>: %msg%n" />
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.chenchi" level="info" additivity="false">
+            <AppenderRef ref="tencent" />
+        </Logger>
+        <!-- 设置zbf的包下输出级别是warn 不打印info-->
+        <Logger name="com.zbf" level="warn" additivity="false">
+            <AppenderRef ref="tencent" />
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

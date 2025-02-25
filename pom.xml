@@ -13,6 +13,8 @@
         <module>java_utils</module>
         <module>elasticsearch</module>
         <module>hutool</module>
+        <module>log</module>
+        <module>graph</module>
         <!--        <module>maven</module>-->
     </modules>
 
