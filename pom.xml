@@ -16,6 +16,7 @@
         <module>log</module>
         <module>graph</module>
         <module>git</module>
+        <module>untitled</module>
         <!--        <module>maven</module>-->
     </modules>
 
