@@ -8,6 +8,6 @@ public class Main {
     public static void main(String[] args) {
             logger.info("Hello World 00");
             logger.info("Hello World 11");
-            logger.info("Hello World 2");
+            logger.info("Hello World 22");
     }
 }
