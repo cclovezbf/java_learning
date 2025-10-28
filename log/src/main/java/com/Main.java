@@ -9,5 +9,6 @@ public class Main {
             logger.info("Hello World");
             logger.warn("Hello World");
             logger.error("Hello World");
+            logger.error("Hello World 3");
     }
 }
