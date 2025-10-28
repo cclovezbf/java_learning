@@ -6,9 +6,8 @@ import org.slf4j.LoggerFactory;
 public class Main {
     public static final Logger logger = LoggerFactory.getLogger(Main.class.getName());
     public static void main(String[] args) {
-            logger.info("Hello World");
-            logger.warn("Hello World");
-            logger.error("Hello World");
-            logger.error("Hello World 3");
+            logger.info("Hello World 0");
+            logger.info("Hello World 1");
+            logger.info("Hello World 2");
     }
 }
