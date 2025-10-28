@@ -7,5 +7,6 @@ public class Main {
     public static final Logger logger = LoggerFactory.getLogger(Main.class.getName());
     public static void main(String[] args) {
             logger.info("Hello World 0");
+            logger.info("Hello World 1");
     }
 }
